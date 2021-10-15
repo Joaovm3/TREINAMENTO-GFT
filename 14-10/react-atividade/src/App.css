@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.App p {
+  text-align: center;
+}
+
+.App-body {
+  display: flex;
+  flex: 1;
+/*  background-color: aquamarine; */
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-count {
+  padding-left: 20em;
+  
+}
