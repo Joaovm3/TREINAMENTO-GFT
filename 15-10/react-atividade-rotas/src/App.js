@@ -1,9 +1,17 @@
 import React from "react";
 
-import Router from "./pages";
+import './App.css';
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 export default function App() {
   return (
-    <Router />
+    <div className="App">
+        <Header />
+          <Main />
+        <Footer />
+    </div>
   );
 }
