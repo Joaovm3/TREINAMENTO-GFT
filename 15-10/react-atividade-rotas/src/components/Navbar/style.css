@@ -1,0 +1,26 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+    font-size: 12px;
+}
+
+.List {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.Item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Item a:hover {
+    color: #ffbb33;
+}
+
+.Icon {
+    padding-left: 1em;
+}

@@ -19,7 +19,6 @@
   justify-content: center;
 }
 
-.Button-count {
-  padding-left: 20em;
-  
+.Btn {
+  padding: 1em;
 }
