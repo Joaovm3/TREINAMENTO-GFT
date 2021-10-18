@@ -7,11 +7,11 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  let [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
   
-  const incrementCount = () => setCount(++count); 
+  const incrementCount = () => setCount(count + 1); 
   
-  const decrementCount = () => setCount(count <= 0 ? count : --count); 
+  const decrementCount = () => setCount(count <= 0 ? count : count -1); 
   
   useEffect(() => {
     console.log('O botão foi apertado');
