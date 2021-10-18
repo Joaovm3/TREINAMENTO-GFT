@@ -19,19 +19,19 @@ const Routes = [
     { path: '/contato', page: <Contato /> }
 ];
 
-
+// @TODO: Para criar uma rota padrão da raiz “/”, você pode usar a notação “<Redirect to="/home" />”.
 const Router = () => {
     return ( 
         <BrowserRouter>
-                <Navbar />
+            <Navbar />
 
-                <Switch>
-                {Routes.map(route => {
-                        return (
-                            <Route path={route.path} exact>
-                                {route.page }
-                            </Route>
-                        );
+            <Switch>
+                {Routes.map(route => { 
+                    return (
+                        <Route path={route.path} exact>
+                            {route.page}
+                        </Route> 
+                    );
                 })};
             </Switch>
         </BrowserRouter>
